@@ -12,6 +12,8 @@ git clone https://github.com/chipdipru/ChipDip-DAC-driver-RaspberryPi
 
 sudo cp ChipDip-DAC-driver-RaspberryPi/snd-soc-chipdip-dac.ko /lib/modules/`uname -r`/kernel/sound/soc/bcm/snd-soc-chipdip-dac.ko
 
+sudo cp ChipDip-DAC-driver-RaspberryPi/chipdip-dac-gpio.dtbo /boot/overlays/chipdip-dac-gpio.dtbo
+
 4)
 
 sudo depmod
