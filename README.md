@@ -1,29 +1,19 @@
-# ChipDip-DAC-driver-RaspberryPi
+<em><strong>1) Install git</em></strong>
 
-1) Install git
+<pre><code>sudo apt install git</code></pre>
 
-sudo apt install git
+<em><strong>2) Clone git repository</em></strong>
 
-2) Clone git repository
+<pre><code>git clone https://github.com/chipdipru/ChipDip-DAC-driver-Moode</code></pre>
 
-git clone https://github.com/chipdipru/ChipDip-DAC-driver-RaspberryPi
+<em><strong>3) Make script "chipdip-dac-install.sh" executable</em></strong>
 
-3) 
+<pre><code>chmod +x ChipDip-DAC-driver-RaspberryPi/chipdip-dac-install.sh</code></pre>
 
-sudo cp ChipDip-DAC-driver-RaspberryPi/snd-soc-chipdip-dac.ko /lib/modules/`uname -r`/kernel/sound/soc/bcm/snd-soc-chipdip-dac.ko
+<em><strong>4) Start script to install ChipDip DACs</em></strong>
 
-sudo cp ChipDip-DAC-driver-RaspberryPi/chipdip-dac.dtbo /boot/overlays/chipdip-dac.dtbo
+<pre><code>ChipDip-DAC-driver-RaspberryPi/chipdip-dac-install.sh</code></pre>
 
-4)
+<em><strong>5) Reboot system to complete installation</em></strong>
 
-sudo depmod
-
-5)
-
-sudo nano /boot/config.txt
-
-Change dtparam=audio=on to #dtparam=audio=on
-At the end of file add
-dtoverlay=chipdip-dac-gpio
-
-6) reboot
+<pre><code>reboot</code></pre>
