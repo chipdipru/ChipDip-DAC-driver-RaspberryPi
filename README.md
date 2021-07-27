@@ -1,4 +1,4 @@
-# ChipDip-DAC-driver-RaspberryPi
+# Installation ChipDip DAC Driver for RaspberryPi OS 5.10
 
 <em><strong>1) Install git</em></strong>
 
