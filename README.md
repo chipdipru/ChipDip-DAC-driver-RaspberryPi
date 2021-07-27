@@ -4,7 +4,7 @@
 
 <em><strong>2) Clone git repository</em></strong>
 
-<pre><code>git clone https://github.com/chipdipru/ChipDip-DAC-driver-Moode</code></pre>
+<pre><code>git clone https://github.com/chipdipru/ChipDip-DAC-driver-RaspberryPi</code></pre>
 
 <em><strong>3) Make script "chipdip-dac-install.sh" executable</em></strong>
 
