@@ -1,4 +1,4 @@
-# Installation ChipDip DAC Driver for RaspberryPi OS 5.10
+# ChipDip DAC Driver installation for RaspberryPi OS 5.10
 
 RasPi DSP Machine 1 (ADAU1701) - https://www.chipdip.ru/product0/9000827685
 
